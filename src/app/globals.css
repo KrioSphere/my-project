@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme {
+  --font-grato: Grato_Grotesk; /* Настройка для подхвата шрифта, если потребуется */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Добавляем плавность для всех переходов */
+html {
+  scroll-behavior: smooth;
+}
